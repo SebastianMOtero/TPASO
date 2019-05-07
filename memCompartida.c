@@ -22,5 +22,4 @@ int main() {
   //Unimos los datos al segmento de memoria compartida con la llamada shmat
   int *buffer;
   buffer = shmat(sharedMemoryID, 0, 0);
-
 }
